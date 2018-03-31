@@ -1,0 +1,31 @@
+.hidden{
+    display: none;
+}
+.nv-csv-lbl{
+    display: inline-block;
+    background: greenyellow;
+    border-radius: 5px;
+}
+.nv-csv-lbl span{
+    display: block;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+.nv-csv-container table{
+    width: 100%;
+        border: 1px solid black;
+    }
+.nv-csv-container table tr{
+    border: 1px solid black;
+}
+.nv-csv-container table tr td{
+    min-width: 10%;
+    padding: 5px;
+    display: inline-block;
+}
+.nv-csv-container table tr:nth-child(even){
+    background: rgba(167, 216, 94,0.4)
+}
